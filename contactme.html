@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Jemimah</title>
+</head>
+
+<body>
+    <h1>Contact Me</h1>
+    <section>
+        <form action="./server.html" method="get">
+            <p>
+            <label for="name1">Name</label>
+            <input type="text" name="first" id="name1">
+        </p>
+        <p>
+            <label for="myemail">Email</label>
+            <input type="email" name="email" id="myemail">
+        </p>
+        <fieldset>
+        <legend>Best Time to Call</legend>
+        <p>
+            <label>
+                <input type="radio" name="time" value="morning">
+                morning
+                </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="time" value="Afternoon">
+                        Afternoon
+                        </label>  
+                </p>
+                <p>
+                    <label>
+                        <input type="radio" name="time" value="Evening">
+                        Evening
+                        </label>     
+                </p>
+        </fieldset>
+        <P>
+            <label for="asap">ASAP</label>
+            <input type="checkbox" name="asap" id="asap">
+        </P>
+        <p>
+            <label for="reason">Reason for Contact</label>
+            <select name="reason" id="reason">
+                <option value="To Check error in my code">Code</option>
+                <option value="To repai our cars">Car Repair</option>
+                <option value="Will not be able to attend class">Class</option>
+            </select>
+        </p>
+        
+        <p>
+            <textarea placeholder="brief explanation" name="comment" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+        <button type="submit">send</button>
+    </p>
+        </form>
+    </section>
+</body>
+
+</html>
